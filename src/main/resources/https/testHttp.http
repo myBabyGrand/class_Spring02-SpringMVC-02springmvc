@@ -1,0 +1,16 @@
+POST http://localhost:8080/mapping-produce
+Accept: text/html
+###406 error Accept: text/plain
+
+###
+POST http://localhost:8080/mapping-consume
+Content-Type: application/json
+
+###
+GET http://localhost:8080/mapping-header
+mode:debug
+
+
+###
+POST http://localhost:8080/hello-basic
+
