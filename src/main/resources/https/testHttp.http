@@ -1,3 +1,29 @@
+POST http://localhost:8080//request-body-json-v5
+content-type: application/json
+
+{"username":"hello", "age":20}
+
+###
+POST http://localhost:8080/request-body-string-v4
+
+RX 78-2
+
+###
+POST http://localhost:8080/request-body-string-v3
+
+zzz
+
+###
+POST http://localhost:8080/request-body-string-v2
+
+cccbba
+
+###
+POST http://localhost:8080/request-body-string-v1
+
+aaaaaaaaaabbbbbbbbbccccccc
+
+###
 DELETE http://localhost:8080/mapping/users/majorTom
 
 ###
